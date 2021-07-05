@@ -192,8 +192,7 @@ public class Ttt {
                         game[2][2].equalsIgnoreCase("x")) || (game[0][2].equalsIgnoreCase("x") &&
                 game[1][1].equalsIgnoreCase("x") && game[2][0].equalsIgnoreCase("x"))) {
             win = 1;
-        }
-        if ((game[0][0].equalsIgnoreCase("o") && game[0][1].equalsIgnoreCase("o") &&
+        } else if ((game[0][0].equalsIgnoreCase("o") && game[0][1].equalsIgnoreCase("o") &&
                 game[0][2].equalsIgnoreCase("o")) || (game[1][0].equalsIgnoreCase("o") &&
                 game[1][1].equalsIgnoreCase("o") && game[1][2].equalsIgnoreCase("o")) ||
                 (game[2][0].equalsIgnoreCase("o") && game[2][1].equalsIgnoreCase("o") &&
