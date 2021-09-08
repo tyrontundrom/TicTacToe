@@ -214,7 +214,7 @@ public class Ttt {
                 user.equalsIgnoreCase("b2") || user.equalsIgnoreCase("b3") ||
                 user.equalsIgnoreCase("c1") || user.equalsIgnoreCase("c2") ||
                 user.equalsIgnoreCase("c3"))) {
-            System.out.println("niewłaściwe pole");
+            System.out.println("Niewłaściwe pole");
             return false;
         }
         return true;
